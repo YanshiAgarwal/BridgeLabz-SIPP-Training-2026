@@ -1,8 +1,16 @@
+import java.util.Scanner;
+
 public class VolumeOfCylinder {
     public static void main(String[] args) {
-        double radius = 5.0; 
-        double height = 10.0; 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter radius: ");
+        double radius = sc.nextDouble();
+
+        System.out.print("Enter height: ");
+        double height = sc.nextDouble();
+
         double volume = Math.PI * radius * radius * height;
-        System.out.println("Volume of cylinder with radius " + radius + " and height " + height + " is: " + volume);
+        System.out.println("Volume of cylinder is: " + volume);
     }
 }
