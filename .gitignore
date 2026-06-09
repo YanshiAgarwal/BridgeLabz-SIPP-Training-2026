@@ -1,3 +1,0 @@
-# Ignore compiled Java bytecode
-*.class
-bin/

@@ -17,7 +17,7 @@ public int romanToInt(String s) {
         } else {
             total += current;
         }
-    }
+    } 
 
     return total;
 }
